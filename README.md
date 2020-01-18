@@ -1,6 +1,8 @@
 # Simple Postgres DB backup script
 
-Driven by environment variables, so can be run against multiple DB instances.
+Written during one of those nights when you realize you're writing the same script for the 10th time on the 10th project, so it's time to finally write it down and keep somewhere.
+
+Script runs `pg_dump`on selected DB, uploads resulting archive to S3 and optonally notifies in Slack channel. Driven by environment variables, so can be run against multiple DB instances.
 
 ## How to run
 
