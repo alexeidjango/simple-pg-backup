@@ -1,0 +1,13 @@
+export PG_DATABASE=your_pd_db_name
+export PG_HOST=your.pg.host
+export PG_PASSWORD=your_pg_password
+export PG_PORT=5432
+export PG_USER=your_pg_user
+export S3_BUCKET_NAME=your_s3_bucket_name
+export S3_BUCKET_PATH=bucket_path
+export SLACK_BOT_NAME="Backup Bot"
+export SLACK_CHANNEL='#auto-db-backup'
+export SLACK_EMOJI=':robot_face:'
+export SLACK_FAILURE_MSG=":warning: Production DB backup failed"
+export SLACK_SUCCESS_MSG="Production DB backup completed successfully."
+export SLACK_WEBHOOK=https://hooks.slack.com/services/YOUR_SLACK_HOOK
